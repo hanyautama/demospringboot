@@ -7,6 +7,6 @@ Testing spring boot dengan JPA & MySQL dengan API
 - POST /demo/user/add
 - GET /demo/user/all
 
-![](screencapture/Capture1.png)
-![](screencapture/Capture2.png)
+![Capture 1](screencapture/Capture1.png)
+![Capture 2](screencapture/Capture2.png)
 
