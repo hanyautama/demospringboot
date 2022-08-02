@@ -1,12 +1,9 @@
-package com.catur.demo;
+package com.catur.user;
 
-import java.util.Set;
-import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
 
 @Entity // This tells Hibernate to make a table out of this class
 public class User {
@@ -17,8 +14,6 @@ public class User {
 	private String name;
 	private String email;
         
-        @OneToMany(cascade = CascadeType.ALL)
-        private Set<Book> books;
 
 	public Integer getId() {
 		return id;

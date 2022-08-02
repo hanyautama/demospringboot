@@ -1,4 +1,4 @@
-package com.catur.demo;
+package com.catur.book;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

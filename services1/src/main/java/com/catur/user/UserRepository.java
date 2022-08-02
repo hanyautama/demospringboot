@@ -1,8 +1,8 @@
-package com.catur.demo;
+package com.catur.user;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.catur.demo.User;
+import com.catur.user.User;
 
 // This will be AUTO IMPLEMENTED by Spring into a Bean called userRepository
 // CRUD refers Create, Read, Update, Delete
